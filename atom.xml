@@ -6,7 +6,7 @@
   <link href="/cl1169451697.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/cl1169451697/cl1169451697.github.io/"/>
-  <updated>2020-07-16T03:49:25.801Z</updated>
+  <updated>2020-07-16T03:53:00.791Z</updated>
   <id>https://github.com/cl1169451697/cl1169451697.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/cl1169451697/cl1169451697.github.io/2020/07/15/%E5%88%9D%E6%AC%A1/"/>
     <id>https://github.com/cl1169451697/cl1169451697.github.io/2020/07/15/%E5%88%9D%E6%AC%A1/</id>
     <published>2020-07-15T13:52:57.000Z</published>
-    <updated>2020-07-16T03:49:25.801Z</updated>
+    <updated>2020-07-16T03:53:00.791Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\cl1169451697.github.io\assets\css\APlayer.min.css"><script src="\cl1169451697.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="computed"><a href="#computed" class="headerlink" title="computed:"></a>computed:</h3><p>计算属性，依赖其它属性值，并且 computed 的值有缓存，只有它依赖的属性值发生改变，下一次获取 computed 的值时才会重新计算 computed 的值；</p><h3 id="watch"><a href="#watch" class="headerlink" title="watch:"></a>watch:</h3><p>监听器:更多的是「观察」的作用，类似于某些数据的监听回调 ，每当监听的数据变化时都会执行回调进行后续操作；</p>]]></content>
     
@@ -38,7 +38,7 @@
       <category term="学习" scheme="https://github.com/cl1169451697/cl1169451697.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="kkk" scheme="https://github.com/cl1169451697/cl1169451697.github.io/tags/kkk/"/>
+      <category term="computed | watch" scheme="https://github.com/cl1169451697/cl1169451697.github.io/tags/computed-watch/"/>
     
   </entry>
   
