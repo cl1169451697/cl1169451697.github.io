@@ -81,14 +81,14 @@
 <h6 id="常见内存泄露"><a href="#常见内存泄露" class="headerlink" title="常见内存泄露:"></a>常见内存泄露:</h6><p>意外的全局变量<br>没有及时清理的定时器或回调函数<br>闭包</p>
 <h5 id="12-递归函数"><a href="#12-递归函数" class="headerlink" title="12.递归函数:"></a>12.递归函数:</h5><p>函数内部自己调用自己, 这个函数就是递归函数;<br>使用递归要加一个退出条件,不然容易出现栈溢出;</p>
 <h5 id="13工厂模式"><a href="#13工厂模式" class="headerlink" title="13工厂模式:"></a>13工厂模式:</h5><p>通过工厂函数模式动态创建对象并返回<br>使用场景:  需要创建多个对象;<br>对象没有一个具体的类型,都是Object;<br>返回一个对象的函数===&gt;工厂函数</p>
-<h5 id="14原型链继承-得到方法"><a href="#14原型链继承-得到方法" class="headerlink" title="14原型链继承:(得到方法)"></a>14原型链继承:(得到方法)</h5><p><img src="https://note.youdao.com/yws/public/resource/0e4f3105521054b2c8f4cd455c7439e1/xmlnote/WEBRESOURCE15dd791596f383f509c41ffd1dc8ceaf/3828" alt="image"></p>
+<h5 id="14原型链继承-得到方法"><a href="#14原型链继承-得到方法" class="headerlink" title="14原型链继承:(得到方法)"></a>14原型链继承:(得到方法)</h5><p><img src="../../public/img/8.%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%BB%A7%E6%89%BF.png" alt="image"></p>
 <h5 id="重点是"><a href="#重点是" class="headerlink" title="重点是:"></a>重点是:</h5><p>1.)子类型的原型是父类型的一个实例对象;</p>
 <p>子类型.prtotype = new 父类型()</p>
 <p>2.)让子类型的原型的construtor重新指回子类型;</p>
 <p>子类型.prototype.constructor = 子类型</p>
 <h5 id="15构造函数-得到属性-原型-得到方法-—-继承最好的用法"><a href="#15构造函数-得到属性-原型-得到方法-—-继承最好的用法" class="headerlink" title="15构造函数 (得到属性) + 原型(得到方法)— 继承最好的用法"></a>15构造函数 (得到属性) + 原型(得到方法)— 继承最好的用法</h5><p>利用call()调用父级的方法</p>
-<p><img src="https://note.youdao.com/yws/public/resource/0e4f3105521054b2c8f4cd455c7439e1/xmlnote/WEBRESOURCEe41047e191b82a9991225cc079e74123/3830" alt="image"></p>
-<p><img src="https://note.youdao.com/yws/public/resource/0e4f3105521054b2c8f4cd455c7439e1/xmlnote/WEBRESOURCEab83be561c92bba8c353537e786e3ee9/3832" alt="image"></p>
+<p><img src="../../public/img/9.png" alt="image"></p>
+<p><img src="../../public/img/10.png" alt="image"></p>
 <h5 id="16-new一个对象背后做了些什么"><a href="#16-new一个对象背后做了些什么" class="headerlink" title="16.new一个对象背后做了些什么?"></a>16.new一个对象背后做了些什么?</h5><p>*.创建了一个空对象</p>
 <p>*给对象设置_ <em>proto</em> _,值为构造函数对象的prototype属性值</p>
 <p>this._ <em>proto</em> _ = fn.prototype;</p>
